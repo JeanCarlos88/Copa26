@@ -1,30 +1,47 @@
+# Nome do Workflow que aparecerá na aba Actions do GitHub
 name: CI
 
+# Define quando este workflow deve ser executado
 on:
+  # Executa quando houver um push (envio de código)
   push:
+    # Apenas se o push for na branch 'main'
     branches: [ "main" ]
+  # Executa quando houver um Pull Request
   pull_request:
+    # Apenas se o PR for direcionado para a branch 'main'
     branches: [ "main" ]
 
+# Agrupa os trabalhos (jobs) que serão executados
 jobs:
+  # Define um job chamado 'build'
   build:
+    # O job rodará em uma máquina virtual com a versão mais recente do Ubuntu
     runs-on: ubuntu-latest
 
+    # Lista de passos a serem executados sequencialmente
     steps:
+    # Passo 1: Baixa o código do repositório para a máquina virtual
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    # Passo 2: Instala e configura o ambiente Node.js
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
+        # Define a versão do Node.js como 20
         node-version: '20'
+        # Ativa o cache para o npm para acelerar instalações futuras
         cache: 'npm'
 
+    # Passo 3: Instala as dependências do projeto de forma limpa e rápida
     - name: Install dependencies
       run: npm ci
 
+    # Passo 4: Executa a verificação de código (linting) para encontrar erros
     - name: Lint
       run: npm run lint
 
+    # Passo 5: Executa o build do projeto para garantir que compila corretamente
     - name: Build
       run: npm run build
