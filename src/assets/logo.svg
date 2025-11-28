@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Stylized 26 -->
+  <path d="M60 40 C60 20, 100 20, 100 40 C100 60, 60 80, 60 100 L100 100" stroke="white" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M140 40 C120 40, 120 60, 120 80 C120 100, 140 100, 140 100 C160 100, 160 80, 160 80" stroke="white" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="140" cy="90" r="10" fill="white"/>
+  
+  <!-- Abstract Trophy Shape -->
+  <path d="M85 120 Q100 180 115 120 L110 110 Q100 140 90 110 Z" fill="#ffd700"/>
+  <circle cx="100" cy="110" r="8" fill="#ffd700"/>
+  
+  <!-- Text -->
+  <text x="100" y="160" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="24">FIFA</text>
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">WORLD CUP 2026</text>
+</svg>
