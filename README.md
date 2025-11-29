@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação web desenvolvida em React para acompanhar a Copa do Mundo de 2026. Ele oferece uma interface interativa para visualizar grupos, estatísticas, jogos e a fase de mata-mata.
 
+https://jeancarlos88.github.io/Copa26/
+
 ## ✨ Funcionalidades
 
 -   **🏠 Página Inicial**: Apresentação com o logo oficial e título do evento.
