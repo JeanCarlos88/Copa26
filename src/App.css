@@ -526,12 +526,110 @@
 
 @media (max-width: 768px) {
   .app-container {
+    padding-top: 60px; /* Adjust for smaller navbar */
+  }
+
+  .navbar {
+    height: 60px;
+    padding: 0 10px;
+  }
+
+  .navbar-container {
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    letter-spacing: 0;
+  }
+
+  .groups-view-container {
     flex-direction: column;
+    height: auto; /* Allow content to dictate height */
+    overflow: visible; /* Remove hidden overflow to allow page scroll */
   }
 
   .sidebar {
     width: 100%;
     height: auto;
+    max-height: 200px; /* Limit height of sidebar on mobile */
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
+    overflow-y: auto; /* Allow scrolling within sidebar */
+  }
+
+  .main-content {
+    height: auto;
+    overflow-y: visible;
+    padding: 10px;
+  }
+
+  .groups-grid {
+    grid-template-columns: 1fr; /* Single column for groups */
+  }
+
+  .home-view h1 {
+    font-size: 2rem; /* Smaller title */
+    padding: 0 20px;
+  }
+
+  .home-logo {
+    max-width: 200px; /* Smaller logo */
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .header-logo-small {
+    height: 60px;
+  }
+
+  .modal-content {
+    width: 95%;
+    max-height: 90vh; /* Prevent modal from being too tall */
+    overflow-y: auto;
+  }
+
+  .modal-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .group-details-table th, 
+  .group-details-table td {
+    padding: 8px 4px;
+    font-size: 0.85rem;
+  }
+  
+  .matches-table th,
+  .matches-table td {
+    padding: 8px 4px;
+    font-size: 0.85rem;
+  }
+
+  .knockout-container {
+    padding: 20px 10px;
+    align-items: flex-start; /* Align to start for horizontal scroll */
+  }
+  
+  .bracket {
+    padding-bottom: 20px; /* Space for scrollbar */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 0.7rem;
+    padding: 6px 8px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
   }
 }
