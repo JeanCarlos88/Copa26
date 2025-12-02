@@ -160,54 +160,91 @@
 }
 
 .match-box {
-  background-color: rgba(30, 30, 30, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 10px;
-  width: 200px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(30, 30, 30, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 0;
+  width: 240px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.match-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 180, 216, 0.5);
+}
+
+.match-header {
+  background: linear-gradient(90deg, #1a1a1a, #2a2a2a);
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.match-date {
+  font-weight: 600;
+  color: #00b4d8;
+  margin-bottom: 2px;
+}
+
+.match-venue {
+  font-style: italic;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.match-content {
+  padding: 12px;
 }
 
 .round-16 .match-box {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .round-8 .match-box {
-  margin: 40px 0;
+  margin: 60px 0;
 }
 
 .round-4 .match-box {
-  margin: 100px 0;
+  margin: 150px 0;
 }
 
 .round-2 .match-box {
-  margin: 200px 0;
+  margin: 300px 0;
   border: 2px solid #ffd700;
 }
 
 .match-team {
   display: flex;
   align-items: center;
-  padding: 5px 0;
-  font-size: 0.9rem;
+  padding: 6px 0;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.match-divider {
+.match-vs {
   text-align: center;
-  font-size: 0.8rem;
-  color: #aaa;
-  margin: 2px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.7rem;
+  color: #666;
+  margin: 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .flag-placeholder {
   margin-right: 8px;
   font-size: 1.2rem;
 }
-
-
 
 .sidebar {
   width: 250px;
@@ -526,7 +563,8 @@
 
 @media (max-width: 768px) {
   .app-container {
-    padding-top: 60px; /* Adjust for smaller navbar */
+    padding-top: 60px;
+    /* Adjust for smaller navbar */
   }
 
   .navbar {
@@ -548,18 +586,22 @@
 
   .groups-view-container {
     flex-direction: column;
-    height: auto; /* Allow content to dictate height */
-    overflow: visible; /* Remove hidden overflow to allow page scroll */
+    height: auto;
+    /* Allow content to dictate height */
+    overflow: visible;
+    /* Remove hidden overflow to allow page scroll */
   }
 
   .sidebar {
     width: 100%;
     height: auto;
-    max-height: 200px; /* Limit height of sidebar on mobile */
+    max-height: 200px;
+    /* Limit height of sidebar on mobile */
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
-    overflow-y: auto; /* Allow scrolling within sidebar */
+    overflow-y: auto;
+    /* Allow scrolling within sidebar */
   }
 
   .main-content {
@@ -569,16 +611,19 @@
   }
 
   .groups-grid {
-    grid-template-columns: 1fr; /* Single column for groups */
+    grid-template-columns: 1fr;
+    /* Single column for groups */
   }
 
   .home-view h1 {
-    font-size: 2rem; /* Smaller title */
+    font-size: 2rem;
+    /* Smaller title */
     padding: 0 20px;
   }
 
   .home-logo {
-    max-width: 200px; /* Smaller logo */
+    max-width: 200px;
+    /* Smaller logo */
   }
 
   .header h1 {
@@ -592,7 +637,8 @@
 
   .modal-content {
     width: 95%;
-    max-height: 90vh; /* Prevent modal from being too tall */
+    max-height: 90vh;
+    /* Prevent modal from being too tall */
     overflow-y: auto;
   }
 
@@ -600,12 +646,12 @@
     font-size: 1.2rem;
   }
 
-  .group-details-table th, 
+  .group-details-table th,
   .group-details-table td {
     padding: 8px 4px;
     font-size: 0.85rem;
   }
-  
+
   .matches-table th,
   .matches-table td {
     padding: 8px 4px;
@@ -614,11 +660,13 @@
 
   .knockout-container {
     padding: 20px 10px;
-    align-items: flex-start; /* Align to start for horizontal scroll */
+    align-items: flex-start;
+    /* Align to start for horizontal scroll */
   }
-  
+
   .bracket {
-    padding-bottom: 20px; /* Space for scrollbar */
+    padding-bottom: 20px;
+    /* Space for scrollbar */
   }
 }
 
@@ -627,7 +675,7 @@
     font-size: 0.7rem;
     padding: 6px 8px;
   }
-  
+
   .sidebar h2 {
     font-size: 1rem;
     margin-bottom: 10px;
