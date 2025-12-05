@@ -75,108 +75,108 @@ export const groups = [
     name: 'Grupo A',
     teams: [
       { id: 'mex', name: 'México', flag: 'https://flagcdn.com/w40/mx.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd1', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd2', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd3', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'rsa', name: 'África do Sul', flag: 'https://flagcdn.com/w40/za.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'kor', name: 'Coreia do Sul', flag: 'https://flagcdn.com/w40/kr.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tbd_po_d', name: 'Vencedor Play-off D', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo B',
     teams: [
       { id: 'can', name: 'Canadá', flag: 'https://flagcdn.com/w40/ca.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd4', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd5', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd6', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tbd_po_a', name: 'Vencedor Play-off A', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'qat', name: 'Catar', flag: 'https://flagcdn.com/w40/qa.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'sui', name: 'Suíça', flag: 'https://flagcdn.com/w40/ch.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo C',
     teams: [
-      { id: 'usa', name: 'Estados Unidos', flag: 'https://flagcdn.com/w40/us.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd7', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd8', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd9', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'bra', name: 'Brasil', flag: 'https://flagcdn.com/w40/br.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'mar', name: 'Marrocos', flag: 'https://flagcdn.com/w40/ma.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'hai', name: 'Haiti', flag: 'https://flagcdn.com/w40/ht.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'sco', name: 'Escócia', flag: 'https://flagcdn.com/w40/gb-sct.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo D',
     teams: [
-      { id: 'bra', name: 'Brasil', flag: 'https://flagcdn.com/w40/br.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd10', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd11', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd12', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'usa', name: 'Estados Unidos', flag: 'https://flagcdn.com/w40/us.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'par', name: 'Paraguai', flag: 'https://flagcdn.com/w40/py.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'aus', name: 'Austrália', flag: 'https://flagcdn.com/w40/au.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tbd_po_c', name: 'Vencedor Play-off C', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo E',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'ger', name: 'Alemanha', flag: 'https://flagcdn.com/w40/de.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'cuw', name: 'Curaçao', flag: 'https://flagcdn.com/w40/cw.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'civ', name: 'Costa do Marfim', flag: 'https://flagcdn.com/w40/ci.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'ecu', name: 'Equador', flag: 'https://flagcdn.com/w40/ec.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo F',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'ned', name: 'Holanda', flag: 'https://flagcdn.com/w40/nl.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'jpn', name: 'Japão', flag: 'https://flagcdn.com/w40/jp.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tbd_po_b', name: 'Vencedor Play-off B', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tun', name: 'Tunísia', flag: 'https://flagcdn.com/w40/tn.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo G',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'bel', name: 'Bélgica', flag: 'https://flagcdn.com/w40/be.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'egy', name: 'Egito', flag: 'https://flagcdn.com/w40/eg.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'irn', name: 'Irã', flag: 'https://flagcdn.com/w40/ir.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'nzl', name: 'Nova Zelândia', flag: 'https://flagcdn.com/w40/nz.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo H',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'esp', name: 'Espanha', flag: 'https://flagcdn.com/w40/es.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'cpv', name: 'Cabo Verde', flag: 'https://flagcdn.com/w40/cv.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'ksa', name: 'Arábia Saudita', flag: 'https://flagcdn.com/w40/sa.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'uru', name: 'Uruguai', flag: 'https://flagcdn.com/w40/uy.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo I',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'fra', name: 'França', flag: 'https://flagcdn.com/w40/fr.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'sen', name: 'Senegal', flag: 'https://flagcdn.com/w40/sn.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tbd_po_2', name: 'Vencedor Play-off 2', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'nor', name: 'Noruega', flag: 'https://flagcdn.com/w40/no.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo J',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'arg', name: 'Argentina', flag: 'https://flagcdn.com/w40/ar.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'alg', name: 'Argélia', flag: 'https://flagcdn.com/w40/dz.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'aut', name: 'Áustria', flag: 'https://flagcdn.com/w40/at.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'jor', name: 'Jordânia', flag: 'https://flagcdn.com/w40/jo.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo K',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'por', name: 'Portugal', flag: 'https://flagcdn.com/w40/pt.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'tbd_po_1', name: 'Vencedor Play-off 1', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'uzb', name: 'Uzbequistão', flag: 'https://flagcdn.com/w40/uz.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'col', name: 'Colômbia', flag: 'https://flagcdn.com/w40/co.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   },
   {
     name: 'Grupo L',
     teams: [
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
-      { id: 'tbd', name: 'A definir', flag: 'https://flagcdn.com/w40/un.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'eng', name: 'Inglaterra', flag: 'https://flagcdn.com/w40/gb-eng.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'cro', name: 'Croácia', flag: 'https://flagcdn.com/w40/hr.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'gha', name: 'Gana', flag: 'https://flagcdn.com/w40/gh.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
+      { id: 'pan', name: 'Panamá', flag: 'https://flagcdn.com/w40/pa.png', points: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0 },
     ]
   }
 ];
