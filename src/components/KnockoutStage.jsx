@@ -1,4 +1,4 @@
-import React from 'react';
+import logo from '../../logo/logo.png';
 
 const KnockoutStage = () => {
     // Placeholder data for the bracket structure with date, time, and venue
@@ -49,7 +49,10 @@ const KnockoutStage = () => {
 
     return (
         <div className="knockout-container">
-            <h2 className="stage-title">Fase Final</h2>
+            <header className="header">
+                <img src={logo} alt="Logo Copa 2026" className="header-logo-small" />
+                <h2 className="stage-title">Fase Final</h2>
+            </header>
             <div className="bracket">
                 <div className="round round-16">
                     <h3>Oitavas</h3>
