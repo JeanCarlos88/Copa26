@@ -4,7 +4,7 @@ import GroupTable from './components/GroupTable';
 import GroupDetailsModal from './components/GroupDetailsModal';
 import { groups } from './data';
 import './App.css';
-import logo from '../logo/logo.svg';
+import logo from '../logo/logo.png';
 
 import CountryMatchesModal from './components/CountryMatchesModal';
 
