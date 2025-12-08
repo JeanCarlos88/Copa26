@@ -4,9 +4,9 @@ export const qualifiedCountries = [
     name: 'Estados Unidos',
     flag: 'https://flagcdn.com/w40/us.png',
     matches: [
-      { date: '12/06/2026', time: '18:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'A definir' },
-      { date: '19/06/2026', time: '21:00', venue: 'Lumen Field, Seattle', opponent: 'A definir' },
-      { date: '25/06/2026', time: '18:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'A definir' }
+      { date: '12/06/2026', time: '22:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'Paraguai' },
+      { date: '20/06/2026', time: '19:00', venue: 'Lumen Field, Seattle', opponent: 'Austrália' },
+      { date: '25/06/2026', time: '22:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Vencedor Play-off C' }
     ]
   },
   {
@@ -14,9 +14,9 @@ export const qualifiedCountries = [
     name: 'Canadá',
     flag: 'https://flagcdn.com/w40/ca.png',
     matches: [
-      { date: '12/06/2026', time: '15:00', venue: 'BMO Field, Toronto', opponent: 'A definir' },
-      { date: '18/06/2026', time: '18:00', venue: 'BC Place, Vancouver', opponent: 'A definir' },
-      { date: '24/06/2026', time: '18:00', venue: 'BC Place, Vancouver', opponent: 'A definir' }
+      { date: '12/06/2026', time: '16:00', venue: 'BMO Field, Toronto', opponent: 'Vencedor Play-off A' },
+      { date: '18/06/2026', time: '19:00', venue: 'BC Place, Vancouver', opponent: 'Catar' },
+      { date: '24/06/2026', time: '16:00', venue: 'BC Place, Vancouver', opponent: 'Suíça' }
     ]
   },
   {
@@ -24,50 +24,401 @@ export const qualifiedCountries = [
     name: 'México',
     flag: 'https://flagcdn.com/w40/mx.png',
     matches: [
-      { date: '11/06/2026', time: '19:00', venue: 'Estádio Azteca, Cidade do México', opponent: 'A definir' },
-      { date: '18/06/2026', time: '20:00', venue: 'Estádio Akron, Guadalajara', opponent: 'A definir' },
-      { date: '24/06/2026', time: '19:00', venue: 'Estádio Azteca, Cidade do México', opponent: 'A definir' }
+      { date: '11/06/2026', time: '16:00', venue: 'Estádio Azteca, Cidade do México', opponent: 'África do Sul' },
+      { date: '18/06/2026', time: '22:00', venue: 'Estádio Akron, Guadalajara', opponent: 'Coreia do Sul' },
+      { date: '24/06/2026', time: '22:00', venue: 'Estádio Azteca, Cidade do México', opponent: 'Vencedor Play-off D' }
     ]
   },
-  { id: 'arg', name: 'Argentina', flag: 'https://flagcdn.com/w40/ar.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'bra', name: 'Brasil', flag: 'https://flagcdn.com/w40/br.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'col', name: 'Colômbia', flag: 'https://flagcdn.com/w40/co.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'ecu', name: 'Equador', flag: 'https://flagcdn.com/w40/ec.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'par', name: 'Paraguai', flag: 'https://flagcdn.com/w40/py.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'uru', name: 'Uruguai', flag: 'https://flagcdn.com/w40/uy.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'aus', name: 'Austrália', flag: 'https://flagcdn.com/w40/au.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'irn', name: 'Irã', flag: 'https://flagcdn.com/w40/ir.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'jpn', name: 'Japão', flag: 'https://flagcdn.com/w40/jp.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'jor', name: 'Jordânia', flag: 'https://flagcdn.com/w40/jo.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'qat', name: 'Catar', flag: 'https://flagcdn.com/w40/qa.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'ksa', name: 'Arábia Saudita', flag: 'https://flagcdn.com/w40/sa.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'kor', name: 'Coreia do Sul', flag: 'https://flagcdn.com/w40/kr.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'uzb', name: 'Uzbequistão', flag: 'https://flagcdn.com/w40/uz.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'alg', name: 'Argélia', flag: 'https://flagcdn.com/w40/dz.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'cpv', name: 'Cabo Verde', flag: 'https://flagcdn.com/w40/cv.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'civ', name: 'Costa do Marfim', flag: 'https://flagcdn.com/w40/ci.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'egy', name: 'Egito', flag: 'https://flagcdn.com/w40/eg.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'gha', name: 'Gana', flag: 'https://flagcdn.com/w40/gh.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'mar', name: 'Marrocos', flag: 'https://flagcdn.com/w40/ma.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'sen', name: 'Senegal', flag: 'https://flagcdn.com/w40/sn.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'rsa', name: 'África do Sul', flag: 'https://flagcdn.com/w40/za.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'tun', name: 'Tunísia', flag: 'https://flagcdn.com/w40/tn.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'nzl', name: 'Nova Zelândia', flag: 'https://flagcdn.com/w40/nz.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'aut', name: 'Áustria', flag: 'https://flagcdn.com/w40/at.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'bel', name: 'Bélgica', flag: 'https://flagcdn.com/w40/be.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'cro', name: 'Croácia', flag: 'https://flagcdn.com/w40/hr.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'eng', name: 'Inglaterra', flag: 'https://flagcdn.com/w40/gb-eng.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'fra', name: 'França', flag: 'https://flagcdn.com/w40/fr.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'ger', name: 'Alemanha', flag: 'https://flagcdn.com/w40/de.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'ned', name: 'Holanda', flag: 'https://flagcdn.com/w40/nl.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'nor', name: 'Noruega', flag: 'https://flagcdn.com/w40/no.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'por', name: 'Portugal', flag: 'https://flagcdn.com/w40/pt.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'sco', name: 'Escócia', flag: 'https://flagcdn.com/w40/gb-sct.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'esp', name: 'Espanha', flag: 'https://flagcdn.com/w40/es.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'sui', name: 'Suíça', flag: 'https://flagcdn.com/w40/ch.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'cuw', name: 'Curaçao', flag: 'https://flagcdn.com/w40/cw.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'hai', name: 'Haiti', flag: 'https://flagcdn.com/w40/ht.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
-  { id: 'pan', name: 'Panamá', flag: 'https://flagcdn.com/w40/pa.png', matches: [{ date: 'A definir', time: '--:--', venue: 'A definir', opponent: 'A definir' }] },
+  {
+    id: 'arg',
+    name: 'Argentina',
+    flag: 'https://flagcdn.com/w40/ar.png',
+    matches: [
+      { date: '13/06/2026', time: '22:00', venue: 'AT&T Stadium, Dallas', opponent: 'Argélia' },
+      { date: '19/06/2026', time: '23:00', venue: 'NRG Stadium, Houston', opponent: 'Áustria' },
+      { date: '27/06/2026', time: '20:00', venue: 'AT&T Stadium, Dallas', opponent: 'Jordânia' }
+    ]
+  },
+  {
+    id: 'bra',
+    name: 'Brasil',
+    flag: 'https://flagcdn.com/w40/br.png',
+    matches: [
+      { date: '13/06/2026', time: '19:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Marrocos' },
+      { date: '19/06/2026', time: '22:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Haiti' },
+      { date: '24/06/2026', time: '19:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Escócia' }
+    ]
+  },
+  {
+    id: 'col',
+    name: 'Colômbia',
+    flag: 'https://flagcdn.com/w40/co.png',
+    matches: [
+      { date: '12/06/2026', time: '21:00', venue: 'Estádio BBVA, Monterrey', opponent: 'Uzbequistão' },
+      { date: '17/06/2026', time: '21:00', venue: 'Estádio Azteca, Cidade do México', opponent: 'Vencedor Play-off 1' },
+      { date: '27/06/2026', time: '20:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Portugal' }
+    ]
+  },
+  {
+    id: 'ecu',
+    name: 'Equador',
+    flag: 'https://flagcdn.com/w40/ec.png',
+    matches: [
+      { date: '14/06/2026', time: '20:00', venue: 'AT&T Stadium, Dallas', opponent: 'Costa do Marfim' },
+      { date: '20/06/2026', time: '14:00', venue: 'NRG Stadium, Houston', opponent: 'Curaçao' },
+      { date: '26/06/2026', time: '21:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Alemanha' }
+    ]
+  },
+  {
+    id: 'par',
+    name: 'Paraguai',
+    flag: 'https://flagcdn.com/w40/py.png',
+    matches: [
+      { date: '12/06/2026', time: '22:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'Estados Unidos' },
+      { date: '19/06/2026', time: '22:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'Vencedor Play-off C' },
+      { date: '25/06/2026', time: '22:00', venue: 'AT&T Stadium, Dallas', opponent: 'Austrália' }
+    ]
+  },
+  {
+    id: 'uru',
+    name: 'Uruguai',
+    flag: 'https://flagcdn.com/w40/uy.png',
+    matches: [
+      { date: '17/06/2026', time: '19:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Arábia Saudita' },
+      { date: '22/06/2026', time: '13:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Cabo Verde' },
+      { date: '27/06/2026', time: '13:00', venue: 'Estádio Akron, Guadalajara', opponent: 'Espanha' }
+    ]
+  },
+  {
+    id: 'aus',
+    name: 'Austrália',
+    flag: 'https://flagcdn.com/w40/au.png',
+    matches: [
+      { date: '15/06/2026', time: '19:00', venue: 'NRG Stadium, Houston', opponent: 'Vencedor Play-off C' },
+      { date: '20/06/2026', time: '19:00', venue: 'Lumen Field, Seattle', opponent: 'Estados Unidos' },
+      { date: '25/06/2026', time: '22:00', venue: 'AT&T Stadium, Dallas', opponent: 'Paraguai' }
+    ]
+  },
+  {
+    id: 'irn',
+    name: 'Irã',
+    flag: 'https://flagcdn.com/w40/ir.png',
+    matches: [
+      { date: '16/06/2026', time: '21:00', venue: 'Gillette Stadium, Boston', opponent: 'Nova Zelândia' },
+      { date: '21/06/2026', time: '16:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'Bélgica' },
+      { date: '27/06/2026', time: '22:00', venue: 'Lumen Field, Seattle', opponent: 'Egito' }
+    ]
+  },
+  {
+    id: 'jpn',
+    name: 'Japão',
+    flag: 'https://flagcdn.com/w40/jp.png',
+    matches: [
+      { date: '15/06/2026', time: '17:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Holanda' },
+      { date: '21/06/2026', time: '17:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Vencedor Play-off B' },
+      { date: '27/06/2026', time: '17:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Tunísia' }
+    ]
+  },
+  {
+    id: 'jor',
+    name: 'Jordânia',
+    flag: 'https://flagcdn.com/w40/jo.png',
+    matches: [
+      { date: '13/06/2026', time: '23:00', venue: 'NRG Stadium, Houston', opponent: 'Áustria' },
+      { date: '19/06/2026', time: '22:00', venue: 'AT&T Stadium, Dallas', opponent: 'Argélia' },
+      { date: '27/06/2026', time: '20:00', venue: 'AT&T Stadium, Dallas', opponent: 'Argentina' }
+    ]
+  },
+  {
+    id: 'qat',
+    name: 'Catar',
+    flag: 'https://flagcdn.com/w40/qa.png',
+    matches: [
+      { date: '13/06/2026', time: '16:00', venue: "Levi's Stadium, San Francisco Bay Area", opponent: 'Suíça' },
+      { date: '18/06/2026', time: '19:00', venue: 'BC Place, Vancouver', opponent: 'Canadá' },
+      { date: '24/06/2026', time: '16:00', venue: 'Lumen Field, Seattle', opponent: 'Vencedor Play-off A' }
+    ]
+  },
+  {
+    id: 'ksa',
+    name: 'Arábia Saudita',
+    flag: 'https://flagcdn.com/w40/sa.png',
+    matches: [
+      { date: '17/06/2026', time: '19:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Uruguai' },
+      { date: '22/06/2026', time: '19:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Espanha' },
+      { date: '27/06/2026', time: '13:00', venue: 'Exploria Stadium, Orlando', opponent: 'Cabo Verde' }
+    ]
+  },
+  {
+    id: 'kor',
+    name: 'Coreia do Sul',
+    flag: 'https://flagcdn.com/w40/kr.png',
+    matches: [
+      { date: '11/06/2026', time: '23:00', venue: 'Estádio Akron, Guadalajara', opponent: 'Vencedor Play-off D' },
+      { date: '18/06/2026', time: '22:00', venue: 'Estádio Akron, Guadalajara', opponent: 'México' },
+      { date: '24/06/2026', time: '22:00', venue: 'Estádio BBVA, Monterrey', opponent: 'África do Sul' }
+    ]
+  },
+  {
+    id: 'uzb',
+    name: 'Uzbequistão',
+    flag: 'https://flagcdn.com/w40/uz.png',
+    matches: [
+      { date: '12/06/2026', time: '21:00', venue: 'Estádio BBVA, Monterrey', opponent: 'Colômbia' },
+      { date: '17/06/2026', time: '20:00', venue: 'NRG Stadium, Houston', opponent: 'Portugal' },
+      { date: '27/06/2026', time: '20:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Vencedor Play-off 1' }
+    ]
+  },
+  {
+    id: 'alg',
+    name: 'Argélia',
+    flag: 'https://flagcdn.com/w40/dz.png',
+    matches: [
+      { date: '13/06/2026', time: '22:00', venue: 'AT&T Stadium, Dallas', opponent: 'Argentina' },
+      { date: '19/06/2026', time: '22:00', venue: 'AT&T Stadium, Dallas', opponent: 'Jordânia' },
+      { date: '27/06/2026', time: '20:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Áustria' }
+    ]
+  },
+  {
+    id: 'cpv',
+    name: 'Cabo Verde',
+    flag: 'https://flagcdn.com/w40/cv.png',
+    matches: [
+      { date: '17/06/2026', time: '13:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Espanha' },
+      { date: '22/06/2026', time: '13:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Uruguai' },
+      { date: '27/06/2026', time: '13:00', venue: 'Exploria Stadium, Orlando', opponent: 'Arábia Saudita' }
+    ]
+  },
+  {
+    id: 'civ',
+    name: 'Costa do Marfim',
+    flag: 'https://flagcdn.com/w40/ci.png',
+    matches: [
+      { date: '14/06/2026', time: '20:00', venue: 'AT&T Stadium, Dallas', opponent: 'Equador' },
+      { date: '20/06/2026', time: '20:00', venue: 'AT&T Stadium, Dallas', opponent: 'Alemanha' },
+      { date: '26/06/2026', time: '21:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Curaçao' }
+    ]
+  },
+  {
+    id: 'egy',
+    name: 'Egito',
+    flag: 'https://flagcdn.com/w40/eg.png',
+    matches: [
+      { date: '16/06/2026', time: '18:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Bélgica' },
+      { date: '21/06/2026', time: '19:00', venue: 'BC Place, Vancouver', opponent: 'Nova Zelândia' },
+      { date: '27/06/2026', time: '22:00', venue: 'Lumen Field, Seattle', opponent: 'Irã' }
+    ]
+  },
+  {
+    id: 'gha',
+    name: 'Gana',
+    flag: 'https://flagcdn.com/w40/gh.png',
+    matches: [
+      { date: '12/06/2026', time: '22:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Panamá' },
+      { date: '17/06/2026', time: '19:00', venue: 'Gillette Stadium, Boston', opponent: 'Inglaterra' },
+      { date: '27/06/2026', time: '21:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Croácia' }
+    ]
+  },
+  {
+    id: 'mar',
+    name: 'Marrocos',
+    flag: 'https://flagcdn.com/w40/ma.png',
+    matches: [
+      { date: '13/06/2026', time: '19:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Brasil' },
+      { date: '19/06/2026', time: '19:00', venue: 'Gillette Stadium, Boston', opponent: 'Escócia' },
+      { date: '24/06/2026', time: '19:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Haiti' }
+    ]
+  },
+  {
+    id: 'sen',
+    name: 'Senegal',
+    flag: 'https://flagcdn.com/w40/sn.png',
+    matches: [
+      { date: '14/06/2026', time: '17:00', venue: 'BC Place, Vancouver', opponent: 'França' },
+      { date: '20/06/2026', time: '17:00', venue: 'BC Place, Vancouver', opponent: 'Vencedor Play-off 2' },
+      { date: '26/06/2026', time: '18:00', venue: 'Exploria Stadium, Orlando', opponent: 'Noruega' }
+    ]
+  },
+  {
+    id: 'rsa',
+    name: 'África do Sul',
+    flag: 'https://flagcdn.com/w40/za.png',
+    matches: [
+      { date: '11/06/2026', time: '16:00', venue: 'Estádio Azteca, Cidade do México', opponent: 'México' },
+      { date: '18/06/2026', time: '13:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Vencedor Play-off D' },
+      { date: '24/06/2026', time: '22:00', venue: 'Estádio BBVA, Monterrey', opponent: 'Coreia do Sul' }
+    ]
+  },
+  {
+    id: 'tun',
+    name: 'Tunísia',
+    flag: 'https://flagcdn.com/w40/tn.png',
+    matches: [
+      { date: '15/06/2026', time: '23:00', venue: 'Gillette Stadium, Boston', opponent: 'Vencedor Play-off B' },
+      { date: '21/06/2026', time: '23:00', venue: 'Gillette Stadium, Boston', opponent: 'Holanda' },
+      { date: '27/06/2026', time: '17:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Japão' }
+    ]
+  },
+  {
+    id: 'nzl',
+    name: 'Nova Zelândia',
+    flag: 'https://flagcdn.com/w40/nz.png',
+    matches: [
+      { date: '16/06/2026', time: '21:00', venue: 'Gillette Stadium, Boston', opponent: 'Irã' },
+      { date: '21/06/2026', time: '19:00', venue: 'BC Place, Vancouver', opponent: 'Egito' },
+      { date: '27/06/2026', time: '22:00', venue: "Levi's Stadium, San Francisco Bay Area", opponent: 'Bélgica' }
+    ]
+  },
+  {
+    id: 'aut',
+    name: 'Áustria',
+    flag: 'https://flagcdn.com/w40/at.png',
+    matches: [
+      { date: '13/06/2026', time: '23:00', venue: 'NRG Stadium, Houston', opponent: 'Jordânia' },
+      { date: '19/06/2026', time: '23:00', venue: 'NRG Stadium, Houston', opponent: 'Argentina' },
+      { date: '27/06/2026', time: '20:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Argélia' }
+    ]
+  },
+  {
+    id: 'bel',
+    name: 'Bélgica',
+    flag: 'https://flagcdn.com/w40/be.png',
+    matches: [
+      { date: '16/06/2026', time: '18:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Egito' },
+      { date: '21/06/2026', time: '16:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'Irã' },
+      { date: '27/06/2026', time: '22:00', venue: "Levi's Stadium, San Francisco Bay Area", opponent: 'Nova Zelândia' }
+    ]
+  },
+  {
+    id: 'cro',
+    name: 'Croácia',
+    flag: 'https://flagcdn.com/w40/hr.png',
+    matches: [
+      { date: '12/06/2026', time: '19:00', venue: 'AT&T Stadium, Dallas', opponent: 'Inglaterra' },
+      { date: '17/06/2026', time: '22:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Panamá' },
+      { date: '27/06/2026', time: '21:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Gana' }
+    ]
+  },
+  {
+    id: 'eng',
+    name: 'Inglaterra',
+    flag: 'https://flagcdn.com/w40/gb-eng.png',
+    matches: [
+      { date: '12/06/2026', time: '19:00', venue: 'AT&T Stadium, Dallas', opponent: 'Croácia' },
+      { date: '17/06/2026', time: '19:00', venue: 'Gillette Stadium, Boston', opponent: 'Gana' },
+      { date: '27/06/2026', time: '21:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Panamá' }
+    ]
+  },
+  {
+    id: 'fra',
+    name: 'França',
+    flag: 'https://flagcdn.com/w40/fr.png',
+    matches: [
+      { date: '14/06/2026', time: '17:00', venue: 'BC Place, Vancouver', opponent: 'Senegal' },
+      { date: '20/06/2026', time: '20:00', venue: 'Lumen Field, Seattle', opponent: 'Noruega' },
+      { date: '26/06/2026', time: '18:00', venue: 'BMO Field, Toronto', opponent: 'Vencedor Play-off 2' }
+    ]
+  },
+  {
+    id: 'ger',
+    name: 'Alemanha',
+    flag: 'https://flagcdn.com/w40/de.png',
+    matches: [
+      { date: '14/06/2026', time: '14:00', venue: 'NRG Stadium, Houston', opponent: 'Curaçao' },
+      { date: '20/06/2026', time: '20:00', venue: 'AT&T Stadium, Dallas', opponent: 'Costa do Marfim' },
+      { date: '26/06/2026', time: '21:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Equador' }
+    ]
+  },
+  {
+    id: 'ned',
+    name: 'Holanda',
+    flag: 'https://flagcdn.com/w40/nl.png',
+    matches: [
+      { date: '15/06/2026', time: '17:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Japão' },
+      { date: '21/06/2026', time: '23:00', venue: 'Gillette Stadium, Boston', opponent: 'Tunísia' },
+      { date: '27/06/2026', time: '17:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Vencedor Play-off B' }
+    ]
+  },
+  {
+    id: 'nor',
+    name: 'Noruega',
+    flag: 'https://flagcdn.com/w40/no.png',
+    matches: [
+      { date: '14/06/2026', time: '20:00', venue: 'Lumen Field, Seattle', opponent: 'Vencedor Play-off 2' },
+      { date: '20/06/2026', time: '20:00', venue: 'Lumen Field, Seattle', opponent: 'França' },
+      { date: '26/06/2026', time: '18:00', venue: 'Exploria Stadium, Orlando', opponent: 'Senegal' }
+    ]
+  },
+  {
+    id: 'por',
+    name: 'Portugal',
+    flag: 'https://flagcdn.com/w40/pt.png',
+    matches: [
+      { date: '12/06/2026', time: '20:00', venue: 'BMO Field, Toronto', opponent: 'Vencedor Play-off 1' },
+      { date: '17/06/2026', time: '20:00', venue: 'NRG Stadium, Houston', opponent: 'Uzbequistão' },
+      { date: '27/06/2026', time: '20:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Colômbia' }
+    ]
+  },
+  {
+    id: 'sco',
+    name: 'Escócia',
+    flag: 'https://flagcdn.com/w40/gb-sct.png',
+    matches: [
+      { date: '13/06/2026', time: '22:00', venue: 'Gillette Stadium, Boston', opponent: 'Haiti' },
+      { date: '19/06/2026', time: '19:00', venue: 'Gillette Stadium, Boston', opponent: 'Marrocos' },
+      { date: '24/06/2026', time: '19:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Brasil' }
+    ]
+  },
+  {
+    id: 'esp',
+    name: 'Espanha',
+    flag: 'https://flagcdn.com/w40/es.png',
+    matches: [
+      { date: '17/06/2026', time: '13:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Cabo Verde' },
+      { date: '22/06/2026', time: '19:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Arábia Saudita' },
+      { date: '27/06/2026', time: '13:00', venue: 'Estádio Akron, Guadalajara', opponent: 'Uruguai' }
+    ]
+  },
+  {
+    id: 'sui',
+    name: 'Suíça',
+    flag: 'https://flagcdn.com/w40/ch.png',
+    matches: [
+      { date: '13/06/2026', time: '16:00', venue: "Levi's Stadium, San Francisco Bay Area", opponent: 'Catar' },
+      { date: '18/06/2026', time: '16:00', venue: 'SoFi Stadium, Los Angeles', opponent: 'Vencedor Play-off A' },
+      { date: '24/06/2026', time: '16:00', venue: 'BC Place, Vancouver', opponent: 'Canadá' }
+    ]
+  },
+  {
+    id: 'cuw',
+    name: 'Curaçao',
+    flag: 'https://flagcdn.com/w40/cw.png',
+    matches: [
+      { date: '14/06/2026', time: '14:00', venue: 'NRG Stadium, Houston', opponent: 'Alemanha' },
+      { date: '20/06/2026', time: '14:00', venue: 'NRG Stadium, Houston', opponent: 'Equador' },
+      { date: '26/06/2026', time: '21:00', venue: 'Hard Rock Stadium, Miami', opponent: 'Costa do Marfim' }
+    ]
+  },
+  {
+    id: 'hai',
+    name: 'Haiti',
+    flag: 'https://flagcdn.com/w40/ht.png',
+    matches: [
+      { date: '13/06/2026', time: '22:00', venue: 'Gillette Stadium, Boston', opponent: 'Escócia' },
+      { date: '19/06/2026', time: '22:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Brasil' },
+      { date: '24/06/2026', time: '19:00', venue: 'Mercedes-Benz Stadium, Atlanta', opponent: 'Marrocos' }
+    ]
+  },
+  {
+    id: 'pan',
+    name: 'Panamá',
+    flag: 'https://flagcdn.com/w40/pa.png',
+    matches: [
+      { date: '12/06/2026', time: '22:00', venue: 'Arrowhead Stadium, Kansas City', opponent: 'Gana' },
+      { date: '17/06/2026', time: '22:00', venue: 'Lincoln Financial Field, Philadelphia', opponent: 'Croácia' },
+      { date: '27/06/2026', time: '21:00', venue: 'MetLife Stadium, New York/New Jersey', opponent: 'Inglaterra' }
+    ]
+  },
 ];
 
 export const groups = [

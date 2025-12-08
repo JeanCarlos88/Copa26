@@ -1,66 +1,65 @@
 import logo from '../../logo/logo.png';
 
 const KnockoutStage = () => {
-    // Placeholder data for the bracket structure with date, time, and venue
+    // Confirmed data for the bracket structure with date, time, and venue
     const roundOf32 = [
-        { match: 'R32 1', team1: '2A', team2: '2B', date: '28/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 2', team1: '1E', team2: '3A/B/C/D/F', date: '28/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 3', team1: '1F', team2: '2C', date: '29/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 4', team1: '1C', team2: '2F', date: '29/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 5', team1: '1I', team2: '3C/D/F/G/H', date: '29/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 6', team1: '2E', team2: '2I', date: '30/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 7', team1: '1A', team2: '3C/E/F/H/I', date: '30/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 8', team1: '1L', team2: '3E/H/I/J/K', date: '30/06/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 9', team1: '1D', team2: '3B/E/F/I/J', date: '01/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 10', team1: '1G', team2: '3A/E/H/I/J', date: '01/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 11', team1: '2K', team2: '2L', date: '02/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 12', team1: '1H', team2: '2J', date: '02/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 13', team1: '1B', team2: '3E/F/G/I/J', date: '02/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 14', team1: '1J', team2: '2H', date: '03/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 15', team1: '1K', team2: '3D/E/I/J/L', date: '03/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'R32 16', team1: '2D', team2: '2G', date: '03/07/2026', time: 'TBD', venue: 'TBD' },
+        { match: 'R32 1', team1: '2A', team2: '2B', date: '28/06/2026', time: 'TBD', venue: 'SoFi Stadium, Los Angeles' },
+        { match: 'R32 2', team1: '1E', team2: '3A/B/C/D/F', date: '29/06/2026', time: 'TBD', venue: 'Gillette Stadium, Boston' },
+        { match: 'R32 3', team1: '1F', team2: '2C', date: '29/06/2026', time: 'TBD', venue: 'Estádio BBVA, Monterrey' },
+        { match: 'R32 4', team1: '1C', team2: '2F', date: '29/06/2026', time: 'TBD', venue: 'NRG Stadium, Houston' },
+        { match: 'R32 5', team1: '1I', team2: '3C/D/F/G/H', date: '30/06/2026', time: 'TBD', venue: 'MetLife Stadium, New York/New Jersey' },
+        { match: 'R32 6', team1: '2E', team2: '2I', date: '30/06/2026', time: 'TBD', venue: 'AT&T Stadium, Dallas' },
+        { match: 'R32 7', team1: '1A', team2: '3C/E/F/H/I', date: '30/06/2026', time: 'TBD', venue: 'Estádio Azteca, Cidade do México' },
+        { match: 'R32 8', team1: '1L', team2: '3E/H/I/J/K', date: '30/06/2026', time: 'TBD', venue: 'Mercedes-Benz Stadium, Atlanta' },
+        { match: 'R32 9', team1: '1D', team2: '3B/E/F/I/J', date: '01/07/2026', time: 'TBD', venue: "Levi's Stadium, San Francisco Bay Area" },
+        { match: 'R32 10', team1: '1G', team2: '3A/E/H/I/J', date: '01/07/2026', time: 'TBD', venue: 'Lumen Field, Seattle' },
+        { match: 'R32 11', team1: '2K', team2: '2L', date: '02/07/2026', time: 'TBD', venue: 'BMO Field, Toronto' },
+        { match: 'R32 12', team1: '1H', team2: '2J', date: '02/07/2026', time: 'TBD', venue: 'AT&T Stadium, Dallas' },
+        { match: 'R32 13', team1: '1B', team2: '3E/F/G/I/J', date: '02/07/2026', time: 'TBD', venue: 'BC Place, Vancouver' },
+        { match: 'R32 14', team1: '1J', team2: '2H', date: '03/07/2026', time: 'TBD', venue: 'Mercedes-Benz Stadium, Atlanta' },
+        { match: 'R32 15', team1: '1K', team2: '3D/E/I/J/L', date: '03/07/2026', time: 'TBD', venue: 'BC Place, Vancouver' },
+        { match: 'R32 16', team1: '2D', team2: '2G', date: '03/07/2026', time: 'TBD', venue: 'Mercedes-Benz Stadium, Atlanta' },
     ];
 
     const roundOf16 = [
-        { match: 'Oitavas 1', team1: 'Venc. R32 1', team2: 'Venc. R32 2', date: '04/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 2', team1: 'Venc. R32 3', team2: 'Venc. R32 4', date: '04/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 3', team1: 'Venc. R32 5', team2: 'Venc. R32 6', date: '05/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 4', team1: 'Venc. R32 7', team2: 'Venc. R32 8', date: '05/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 5', team1: 'Venc. R32 9', team2: 'Venc. R32 10', date: '06/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 6', team1: 'Venc. R32 11', team2: 'Venc. R32 12', date: '06/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 7', team1: 'Venc. R32 13', team2: 'Venc. R32 14', date: '07/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Oitavas 8', team1: 'Venc. R32 15', team2: 'Venc. R32 16', date: '07/07/2026', time: 'TBD', venue: 'TBD' },
+        { match: 'Oitavas 1', team1: 'Venc. R32 1', team2: 'Venc. R32 2', date: '04/07/2026', time: 'TBD', venue: 'Lincoln Financial Field, Philadelphia' },
+        { match: 'Oitavas 2', team1: 'Venc. R32 3', team2: 'Venc. R32 4', date: '04/07/2026', time: 'TBD', venue: 'NRG Stadium, Houston' },
+        { match: 'Oitavas 3', team1: 'Venc. R32 5', team2: 'Venc. R32 6', date: '05/07/2026', time: 'TBD', venue: 'MetLife Stadium, New York/New Jersey' },
+        { match: 'Oitavas 4', team1: 'Venc. R32 7', team2: 'Venc. R32 8', date: '05/07/2026', time: 'TBD', venue: 'Estádio Azteca, Cidade do México' },
+        { match: 'Oitavas 5', team1: 'Venc. R32 9', team2: 'Venc. R32 10', date: '06/07/2026', time: 'TBD', venue: 'AT&T Stadium, Dallas' },
+        { match: 'Oitavas 6', team1: 'Venc. R32 11', team2: 'Venc. R32 12', date: '06/07/2026', time: 'TBD', venue: 'Lumen Field, Seattle' },
+        { match: 'Oitavas 7', team1: 'Venc. R32 13', team2: 'Venc. R32 14', date: '07/07/2026', time: 'TBD', venue: 'Mercedes-Benz Stadium, Atlanta' },
+        { match: 'Oitavas 8', team1: 'Venc. R32 15', team2: 'Venc. R32 16', date: '07/07/2026', time: 'TBD', venue: 'BC Place, Vancouver' },
     ];
 
     const quarterFinals = [
-        { match: 'Quartas 1', team1: 'Venc. O1', team2: 'Venc. O2', date: '10/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Quartas 2', team1: 'Venc. O3', team2: 'Venc. O4', date: '10/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Quartas 3', team1: 'Venc. O5', team2: 'Venc. O6', date: '11/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Quartas 4', team1: 'Venc. O7', team2: 'Venc. O8', date: '11/07/2026', time: 'TBD', venue: 'TBD' },
+        { match: 'Quartas 1', team1: 'Venc. O1', team2: 'Venc. O2', date: '09/07/2026', time: 'TBD', venue: 'Gillette Stadium, Boston' },
+        { match: 'Quartas 2', team1: 'Venc. O3', team2: 'Venc. O4', date: '10/07/2026', time: 'TBD', venue: 'SoFi Stadium, Los Angeles' },
+        { match: 'Quartas 3', team1: 'Venc. O5', team2: 'Venc. O6', date: '11/07/2026', time: 'TBD', venue: 'Hard Rock Stadium, Miami' },
+        { match: 'Quartas 4', team1: 'Venc. O7', team2: 'Venc. O8', date: '11/07/2026', time: 'TBD', venue: 'Arrowhead Stadium, Kansas City' }, // Note: Could be swapped with Miami, but same date
     ];
 
     const semiFinals = [
-        { match: 'Semi 1', team1: 'Venc. Q1', team2: 'Venc. Q2', date: '14/07/2026', time: 'TBD', venue: 'TBD' },
-        { match: 'Semi 2', team1: 'Venc. Q3', team2: 'Venc. Q4', date: '15/07/2026', time: 'TBD', venue: 'TBD' },
+        { match: 'Semi 1', team1: 'Venc. Q1', team2: 'Venc. Q2', date: '14/07/2026', time: 'TBD', venue: 'AT&T Stadium, Dallas' },
+        { match: 'Semi 2', team1: 'Venc. Q3', team2: 'Venc. Q4', date: '15/07/2026', time: 'TBD', venue: 'Mercedes-Benz Stadium, Atlanta' },
     ];
 
     const final = [
-        { match: 'Final', team1: 'Venc. S1', team2: 'Venc. S2', date: '19/07/2026', time: 'TBD', venue: 'MetLife Stadium' }
+        { match: 'Final', team1: 'Venc. S1', team2: 'Venc. S2', date: '19/07/2026', time: 'TBD', venue: 'MetLife Stadium, New York/New Jersey' }
     ];
 
     const MatchBox = ({ match }) => (
         <div className="match-box">
             <div className="match-header">
-                <span className="match-date">{match.date} • {match.time}</span>
-                <span className="match-venue">{match.venue}</span>
+                <span className="match-date">{match.date} • {match.time} <span style={{ fontSize: '0.8em', fontWeight: 'normal' }}>(Brasília)</span> • {match.venue}</span>
             </div>
             <div className="match-content">
                 <div className="match-team">
-                    <span className="flag-placeholder">🏳️</span> {match.team1}
+                    {match.team1}
                 </div>
                 <div className="match-vs">vs</div>
                 <div className="match-team">
-                    <span className="flag-placeholder">🏳️</span> {match.team2}
+                    {match.team2}
                 </div>
             </div>
         </div>

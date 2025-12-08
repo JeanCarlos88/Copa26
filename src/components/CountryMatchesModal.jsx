@@ -18,7 +18,7 @@ const CountryMatchesModal = ({ country, onClose }) => {
                         <thead>
                             <tr>
                                 <th>Data</th>
-                                <th>Hora</th>
+                                <th>Hora <span style={{ fontSize: '0.8em', fontWeight: 'normal' }}>(Brasília)</span></th>
                                 <th>Local</th>
                                 <th>Oponente</th>
                             </tr>
