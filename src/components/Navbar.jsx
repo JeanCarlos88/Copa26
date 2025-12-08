@@ -17,6 +17,12 @@ const Navbar = ({ currentView, onViewChange }) => {
                     Tabela de Grupos
                 </button>
                 <button
+                    className={`nav-link ${currentView === 'matches' ? 'active' : ''}`}
+                    onClick={() => onViewChange('matches')}
+                >
+                    Jogos
+                </button>
+                <button
                     className={`nav-link ${currentView === 'knockout' ? 'active' : ''}`}
                     onClick={() => onViewChange('knockout')}
                 >

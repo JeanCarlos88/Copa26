@@ -11,6 +11,8 @@ import CountryMatchesModal from './components/CountryMatchesModal';
 import Navbar from './components/Navbar';
 import KnockoutStage from './components/KnockoutStage';
 
+import MatchesList from './components/MatchesList';
+
 function App() {
   const [currentView, setCurrentView] = useState('home');
   const [selectedGroup, setSelectedGroup] = useState(null);
@@ -62,6 +64,8 @@ function App() {
             </main>
           </div>
         );
+      case 'matches':
+        return <MatchesList />;
       case 'knockout':
         return <KnockoutStage />;
       default:
